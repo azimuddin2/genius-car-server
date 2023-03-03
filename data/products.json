@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Car Engine Plug",
+        "image": "https://i.ibb.co/NNPrnp8/1.png",
+        "price": "80.00"
+    },
+    {
+        "title": "Car Air Filter",
+        "image": "https://i.ibb.co/n16dcs8/2.png",
+        "price": "20.00"
+    },
+    {
+        "title": "Cools Led Light",
+        "image": "https://i.ibb.co/vd6BW53/3.png",
+        "price": "50.00"
+    },
+    {
+        "title": "Cools Led Light",
+        "image": "https://i.ibb.co/RDdQJ3Z/4.png",
+        "price": "30.00"
+    },
+    {
+        "title": "Cools Led Tire",
+        "image": "https://i.ibb.co/h2vmZng/5.png",
+        "price": "40.00"
+    },
+    {
+        "title": "Best Car Battery",
+        "image": "https://i.ibb.co/pyJbVC4/6.png",
+        "price": "90.00"
+    }
+]
