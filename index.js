@@ -64,11 +64,11 @@ async function run() {
         //Order & Payment Operation
         app.post('/order', async (req, res) => {
             const order = req.body;
-            const { serviceName, servicePrice, customer, email, address, phone, postcode, currency } = order;
+            const { title, price, customer, email, address, phone, postcode, currency } = order;
             const transactionId = new ObjectId().toString();
 
             const data = {
-                total_amount: servicePrice,
+                total_amount: price,
                 currency: currency,
                 tran_id: transactionId,
                 success_url: `${process.env.SERVER_URL}/payment/success?transactionId=${transactionId}`,
@@ -76,7 +76,7 @@ async function run() {
                 cancel_url: 'http://localhost:5000/payment/cancel',
                 ipn_url: 'http://localhost:5000/payment/ipn',
                 shipping_method: 'Courier',
-                product_name: serviceName,
+                product_name: title,
                 product_category: 'Electronic',
                 product_profile: 'general',
                 cus_name: customer,
